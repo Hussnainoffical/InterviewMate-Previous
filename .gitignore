@@ -1,0 +1,34 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Secrets / local runtime
+.env
+env
+*.log
+interviewmate.db
+*.sqlite
+*.sqlite3
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+
+# Backend generated / large local assets
+backend/models/
+backend/storage/
+
+# Flutter / Dart generated
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# QA screenshots
+*.png
